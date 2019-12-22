@@ -1,6 +1,8 @@
 # Changelog for Makefile.venv
 
 <!--Template for new entries
+
+
 ## CURRENT
 
 *
@@ -10,6 +12,29 @@
 | [Tarball](https://github.com/sio/Makefile.venv/tarball/CURRENT)
 | [Commit history](https://github.com/sio/Makefile.venv/compare/PREVIOUS...CURRENT)
 -->
+
+
+## v2019.12.05
+
+* Use Python to detect if Windows paths are required. This helps to avoid
+  mistakes when using different combinations of Cygwin/native Windows
+  environments. Thanks to [@jpc4242](https://github.com/jpc4242)
+
+[Source code tree](https://github.com/sio/Makefile.venv/tree/v2019.12.05)
+| [Tarball](https://github.com/sio/Makefile.venv/tarball/v2019.12.05)
+| [Commit history](https://github.com/sio/Makefile.venv/compare/v2019.12.04...v2019.12.05)
+
+
+## v2019.12.04
+
+* New configuration variable: FORCE_UNIX_PATHS. If this variable is set,
+  unix-like file paths are assumed and no Windows detection takes place.
+  Thanks to [@jpc4242](https://github.com/jpc4242) for reporting
+  [the issue](https://github.com/sio/Makefile.venv/issues/2) with Cygwin.
+
+[Source code tree](https://github.com/sio/Makefile.venv/tree/v2019.12.04)
+| [Tarball](https://github.com/sio/Makefile.venv/tarball/v2019.12.04)
+| [Commit history](https://github.com/sio/Makefile.venv/compare/v2019.11.22...v2019.12.04)
 
 
 ## v2019.11.22
